@@ -1,0 +1,16 @@
+
+/*------------------------------------------------------------------------------
+ * AUTO GENERATED
+ *----------------------------------------------------------------------------*/
+
+syntax = "proto3";
+package caikit.runtime.TextGeneration;
+import "hfmodulerequest.proto";
+import "textoutput.proto";
+
+
+/*-- SERVICES ----------------------------------------------------------------*/
+
+service TextGenerationService {
+  rpc HfModulePredict(caikit.runtime.TextGeneration.HfModuleRequest) returns (text_generation.data_model.TextOutput);
+}

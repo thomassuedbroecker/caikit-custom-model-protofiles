@@ -1,0 +1,17 @@
+
+/*------------------------------------------------------------------------------
+ * AUTO GENERATED
+ *----------------------------------------------------------------------------*/
+
+syntax = "proto3";
+package caikit.runtime.TextGeneration;
+import "textinput.proto";
+
+
+/*-- MESSAGES ----------------------------------------------------------------*/
+
+message HfModuleRequest {
+
+  /*-- fields --*/
+  text_generation.data_model.TextInput text_input = 1;
+}

@@ -1,0 +1,14 @@
+#caikit==v0.4.1
+#caikit==v0.3.1
+caikit==v0.14.2
+grpcio
+grpcio-tools
+grpcio-health-checking
+grpcio-reflection
+prometheus_client
+py_grpc_prometheus
+
+# Only needed for HuggingFace
+scipy
+torch
+transformers~=4.27.2
