@@ -4,17 +4,16 @@
  *----------------------------------------------------------------------------*/
 
 syntax = "proto3";
-package caikit_data_model.runtime;
+package caikit_data_model.common;
 
 
 /*-- ENUMS -------------------------------------------------------------------*/
 
 enum TrainingStatus {
-  NOT_STARTED = 0;
-  HALTED = 1;
-  FAILED = 2;
-  DOWNLOADING = 3;
-  PROCESSING = 4;
-  STORING = 5;
-  COMPLETED = 6;
+  PLACEHOLDER_UNSET = 0;
+  QUEUED = 1;
+  RUNNING = 2;
+  COMPLETED = 3;
+  CANCELED = 4;
+  ERRORED = 5;
 }

@@ -30,3 +30,4 @@ tests/protos/*
 # Sphinx generated files
 docs/api/
 docs/_build/
+protos

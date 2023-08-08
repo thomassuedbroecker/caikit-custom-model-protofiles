@@ -13,5 +13,5 @@ import "producerid.proto";
 message ProducerPriority {
 
   /*-- fields --*/
-  repeated caikit_data_model.common.ProducerId elements = 1;
+  repeated caikit_data_model.common.ProducerId producers = 1;
 }
